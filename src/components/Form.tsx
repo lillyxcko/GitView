@@ -20,15 +20,13 @@ function Form({ fetchData }: Props) {
             name='username'
             required
             value={username}
+            placeholder="Type in a GitHub username"
             onChange={(event) => setUsername(event.target.value)}
-            className='block w-full px-3 py-2 border border-gray-300 form-input rounded-md 
-            shadow-sm focus:outline-none focus:shadow-outline-blue focus:border-blue-300'
+            className="form-input"
           />
           <button
             type='submit'
-            className='px-3 py-2 ml-2 text-sm font-medium text-gray-700 border border-gray-300 rounded-md 
-            leading-4 hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue 
-            active:bg-gray-50 active:text-gray-800'>
+            className="search-button">
             Search
           </button>
         </div>

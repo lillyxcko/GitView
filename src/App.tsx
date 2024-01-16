@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Form from './components/Form'
 import Card from './components/Card'
+import Header from './components/Header'
 
   export type GitHubData = {
     name: string
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <div>
+      <Header />
       <Form fetchData={fetchData} />
       <div className='mt-10'>
         {cards.map((card, index) => (

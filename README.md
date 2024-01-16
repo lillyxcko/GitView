@@ -1,2 +1,3 @@
-![image](https://github.com/lillyxcko/GitView/assets/79551113/2de4d4a9-d28d-4be9-9c52-d8aae58111f7)
+![image](https://github.com/lillyxcko/GitView/assets/79551113/695e4dd7-f388-4a0e-9256-a2cd634cd827)
+
 
